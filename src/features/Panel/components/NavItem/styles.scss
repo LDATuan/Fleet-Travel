@@ -1,0 +1,19 @@
+.navitem {
+    margin-right: 32px;
+    &__link {
+        display: block;
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        border-bottom: 1px solid transparent;
+        padding: 40px 0 30px 0;
+        &:hover {
+            color: var(--text-bold);
+        }
+    }
+}
+.active {
+    border-color: var(--text-bold);
+    color: var(--text-bold);
+}

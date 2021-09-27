@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    align-content: space-between;
+    padding: 24px 85px;
+    z-index: 20;
+    margin: 0 auto;
+    &__logo {
+        display: flex;
+    }
+    &__marker {
+        display: inline-block;
+        margin: 0 30px;
+        height: 30px;
+        border-left: 1px solid #e6e8ec;
+        // border-left: 1px solid red;
+    }
+    &__type-travel {
+        display: flex;
+        flex-grow: 1;
+    }
+    &__left {
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-left: auto;
+        // margin-right: 80px;
+        color: var(--text);
+        align-items: center;
+    }
+    &__support,
+    &__language,
+    &__notification,
+    &__user {
+        cursor: pointer;
+        &:hover {
+            color: var(--text-bold);
+        }
+    }
+
+    &__notification,
+    &__user {
+        font-size: 20px;
+    }
+    &__iconlanguage {
+        margin-right: 10px;
+    }
+}
