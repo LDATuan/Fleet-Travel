@@ -1,9 +1,8 @@
+import mainpic from 'assets/img/main-pic.jpg';
+import Button from 'components/Button/Button';
 import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
-import Button from '../../components/Button/Button';
 import PanelFeature from '../Panel';
-import mainpic from '../../assets/img/main-pic.jpg';
+import './styles.scss';
 
 MainBodyFeature.propTypes = {};
 

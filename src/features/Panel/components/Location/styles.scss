@@ -3,7 +3,7 @@
     cursor: pointer;
     display: flex;
     align-items: flex-start;
-    width: 510px;
+    width: 25%;
     margin-top: 20px;
     color: var(--text);
     padding: 20px 24px;
@@ -16,7 +16,7 @@
     &__input {
         cursor: pointer;
         border: none;
-        width: 50%;
+        width: 100%;
         text-overflow: ellipsis;
         outline: none;
         font-family: inherit;
@@ -60,6 +60,7 @@
         box-shadow: 0 32px 32px 0 rgba(#0f0f0f, 0.05);
         border-radius: 16px;
         transition: all 0.2s ease-in;
+        width: 510px;
     }
     &__list {
         // padding: 16px 8px;

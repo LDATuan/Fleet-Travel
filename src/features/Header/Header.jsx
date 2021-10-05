@@ -2,20 +2,18 @@ import { faBell, faUser } from '@fortawesome/free-regular-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import Button from '../../components/Button/Button';
-import { configIcon } from 'configs';
-
+import { ReactComponent as Logo } from 'assets/img/logodark.svg';
+import Button from 'components/Button/Button';
 import './styles.scss';
 import TypeTravel from './TypeTravel/TypeTravel';
 
 Header.propTypes = {};
 
 function Header(props) {
-    const { Icon } = configIcon.logo;
     return (
         <header className="header">
             <a className="header__logo" href="index.html">
-                <Icon />
+                <Logo />
             </a>
             <div className="header__marker"></div>
             <TypeTravel />

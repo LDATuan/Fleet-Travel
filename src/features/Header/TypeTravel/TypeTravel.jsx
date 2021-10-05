@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faComment, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useState } from 'react';
 import './styles.scss';
 
 TypeTravel.propTypes = {};

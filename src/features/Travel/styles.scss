@@ -1,0 +1,52 @@
+.travel {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 136px;
+    &__wrapper {
+        position: relative;
+    }
+    &__head {
+        max-width: 640px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    &__title {
+        font-size: 48px;
+        letter-spacing: -0.02em;
+    }
+    &__info {
+        font-size: 24px;
+        color: var(--text);
+    }
+    &__body {
+        display: flex;
+        align-items: center;
+    }
+    &__col {
+        &:first-child {
+            // padding-right: 174px;
+            flex-grow: 1;
+        }
+    }
+    &__slider {
+        position: relative;
+    }
+    &__btn {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+    &__icon {
+        color: white;
+    }
+    &__image {
+        border-radius: 32px;
+        overflow: hidden;
+    }
+    &__group {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

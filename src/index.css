@@ -13,6 +13,7 @@ body {
     background-color: var(--background);
     font-size: 14px;
     color: #23262f;
+    -webkit-font-smoothing: antialiased;
 }
 
 code {
@@ -21,6 +22,7 @@ code {
 :root {
     --primary: #3b71fe;
     --secondary: #0142eb;
+    --border-1: #e6e8ec;
     --text: #777e90;
     --text-bold: #23262f;
     --background: #fcfcfd;

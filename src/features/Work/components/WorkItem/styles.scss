@@ -1,0 +1,16 @@
+.work {
+    &__item {
+        width: 256px;
+        font-family: 'Poppins';
+    }
+    &__subtitle {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    &__subinfo {
+        text-align: center;
+        color: var(--text);
+    }
+}

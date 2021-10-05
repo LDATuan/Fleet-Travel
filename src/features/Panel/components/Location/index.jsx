@@ -1,15 +1,12 @@
 import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-// import { configIcon } from '../../../../configs';
-import { configIcon } from 'configs';
-
+import { ReactComponent as Circlexmark } from 'assets/icons/circlexmark.svg';
 import './styles.scss';
 
 LocationComponent.propTypes = {};
 
 function LocationComponent(props) {
-    const { Icon } = configIcon.circlexmark;
     const locations = [
         { id: 0, name: 'New York, NY' },
         { id: 1, name: 'New York, Manhattan' },
@@ -53,21 +50,15 @@ function LocationComponent(props) {
                     type="text"
                     placeholder="Location"
                 />
-                <label for="location" className="location__title">
+                <label htmlFor="location" className="location__title">
                     Where are you going?
                 </label>
             </div>
             {isActive ? (
                 <>
                     <div className="location__close" onClick={inputcloseClick}>
-                        {/* <img
-                            className="location__close"
-                            src="./assets/icons/circlexmark.svg"
-                            alt="icon1"
-                            width={16}
-                            height={16}
-                        /> */}
-                        <Icon />
+                        {/* <img className="location__close" src={circlexmark} alt="icon1" width={16} height={16} /> */}
+                        <Circlexmark />
                     </div>
 
                     <div className="location__list">

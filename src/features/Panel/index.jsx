@@ -1,9 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
+import PanelBody from './components/Body';
 import NavPanel from './components/Nav';
 import './styles.scss';
-import PanelBody from './components/Body';
 
 PanelFeature.propTypes = {};
 

@@ -1,0 +1,25 @@
+.travel {
+    &__item {
+        font-family: 'Poppins';
+        margin-bottom: 40px;
+    }
+    &__number {
+        display: inline-block;
+        width: 22px;
+        padding: 0 8px;
+        background-color: red;
+        border-radius: 12px;
+        text-align: center;
+        color: var(--background);
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+    &__subtitle {
+        font-size: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: calc(4 / 3);
+        letter-spacing: -0.01em;
+    }
+}

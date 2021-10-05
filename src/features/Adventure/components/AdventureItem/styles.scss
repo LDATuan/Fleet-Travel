@@ -1,0 +1,31 @@
+.adventure {
+    &__item {
+        font-family: 'Poppins';
+        display: flex;
+        align-items: center;
+    }
+    &__detail {
+        padding: 0 16px;
+        width: 40%;
+    }
+    &__subtitle {
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    &__place {
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: var(--border-1);
+        border-radius: 13px;
+        font-weight: 700;
+        padding: 4px 12px;
+        line-height: 26px;
+        color: var(--text-bold);
+    }
+    &__button {
+        text-align: center;
+    }
+}

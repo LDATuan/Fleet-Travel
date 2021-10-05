@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "module": "commonJS",
+        "module": "es6",
         "target": "es6",
-        "baseUrl": "src"
+        "baseUrl": "src",
+        "moduleResolution": "node"
     },
-    "include": ["src"],
-    "exclude": ["node_modules"]
+    "include": ["src/**/*"]
 }
