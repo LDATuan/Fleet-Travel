@@ -1,0 +1,28 @@
+.travels {
+    &__sortitem {
+        text-decoration: none;
+        font-weight: 600;
+        color: var(--text);
+        display: inline-block;
+        border-radius: 16px;
+        // border: 1px solid red;
+        padding: 8px 16px;
+        align-items: center;
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+        &--active {
+            background-color: var(--text-bold);
+            color: #fff;
+        }
+    }
+    &__icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        color: var(--text);
+        &--active {
+            color: #fff;
+        }
+    }
+}

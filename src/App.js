@@ -1,5 +1,8 @@
 import AdventureFeature from 'features/Adventure';
+import LiveFeature from 'features/Live';
+import PlanFeature from 'features/Plan';
 import TravelFeature from 'features/Travel';
+import TravelsFeature from 'features/Travels';
 import WorkFeature from 'features/Work';
 import './App.css';
 import Header from './features/Header/Header';
@@ -13,6 +16,9 @@ function App() {
             <AdventureFeature />
             <TravelFeature />
             <WorkFeature />
+            <LiveFeature />
+            <TravelsFeature />
+            <PlanFeature />
         </div>
     );
 }

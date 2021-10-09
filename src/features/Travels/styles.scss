@@ -1,0 +1,38 @@
+.travels {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 136px;
+    background-color: #f4f5f6;
+    padding: 70px 44px;
+    border-radius: 24px;
+    &__head {
+        max-width: 640px;
+        // text-align: center;
+        // margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 12px;
+    }
+    &__info {
+        font-size: 24px;
+        color: var(--text);
+        font-family: 'Poppins';
+    }
+    &__select {
+        width: 256px;
+        font-family: 'Poppins';
+    }
+    &__sorting {
+        display: flex;
+        align-items: center;
+        margin-bottom: 48px;
+    }
+    &__btn {
+        text-align: center;
+        margin-top: 68px;
+    }
+}

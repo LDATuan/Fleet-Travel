@@ -36,6 +36,10 @@ function TravelFeature(props) {
 
     return (
         <section className="travel">
+            <div className="travel__head">
+                <h2 className="travel__title">Travel to make memories all around the world</h2>
+                <div className="travel__info">Find trips that fit a flexible lifestyle</div>
+            </div>
             <div className="travel__body">
                 <div className="travel__col">
                     <TravelList />

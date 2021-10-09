@@ -1,0 +1,35 @@
+.live {
+    &__item {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Poppins';
+        &:hover {
+            .live__subtitle {
+                color: var(--primary);
+            }
+            .live__image {
+                transform: scale(1.05);
+            }
+        }
+    }
+    &__preview {
+        overflow: hidden;
+        height: 480px;
+        margin-bottom: 16px;
+        border-radius: 16px;
+    }
+    &__image {
+        transition: transform 1s ease;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--text-bold);
+        line-height: 1.5;
+        margin-bottom: 8px;
+        transition: all 0.2s;
+    }
+    &__content {
+        color: var(--text);
+    }
+}

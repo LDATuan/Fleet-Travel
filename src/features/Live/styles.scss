@@ -1,0 +1,23 @@
+.live {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 136px;
+    &__head {
+        max-width: 640px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    &__title {
+        font-size: 48px;
+        letter-spacing: -0.02em;
+    }
+    &__info {
+        font-size: 24px;
+        color: var(--text);
+    }
+    &__btn {
+        text-align: center;
+        margin-top: 68px;
+    }
+}
