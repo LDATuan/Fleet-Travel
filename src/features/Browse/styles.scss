@@ -1,0 +1,28 @@
+.browse {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 136px;
+    padding: 0 80px;
+
+    &__head {
+        margin-bottom: 20px;
+        position: relative;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 12px;
+    }
+    &__info {
+        font-size: 24px;
+        color: var(--text);
+        font-family: 'Poppins';
+    }
+
+    &__button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,54 @@
+.browse {
+    &__item {
+        cursor: pointer;
+        width: calc(25% - 16px);
+        margin: 0 16px;
+        font-family: 'Poppins';
+        &:hover {
+            .browse__image img {
+                transform: scale(1.05);
+            }
+            .browse__subtitle {
+                color: var(--primary);
+            }
+        }
+    }
+    &__image {
+        position: relative;
+        overflow: hidden;
+        border-radius: 24px;
+        & img {
+            width: 100%;
+            vertical-align: top;
+            object-fit: cover;
+            transition: transform 1s;
+        }
+    }
+    &__category {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        background: var(--text-bold);
+        border-radius: 16px;
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        transition: all 0.2s;
+    }
+    &__content {
+        color: var(--text);
+        font-weight: 600;
+        font-size: 12px;
+    }
+    &__icon {
+        margin-right: 8px;
+    }
+}

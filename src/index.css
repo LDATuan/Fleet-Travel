@@ -14,6 +14,7 @@ body {
     font-size: 14px;
     color: #23262f;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.71429;
 }
 
 code {
